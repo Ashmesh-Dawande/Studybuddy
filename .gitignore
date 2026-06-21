@@ -1,0 +1,43 @@
+# === Secrets & Environment Variables ===
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Streamlit ===
+streamlit_log.txt
+.streamlit/cache/
+
+# === App Runtime Data ===
+chat_history.json
+chat_sessions.json
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+nul
+
+# === Logs ===
+*.log
+logs/

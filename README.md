@@ -94,8 +94,7 @@ studybuddy-ai/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/nareshh3105/srm-hackathon.git
-   cd srm-hackathon
+   https://github.com/Ashmesh-Dawande/Studybuddy.git
    ```
 
 2. **Install dependencies**

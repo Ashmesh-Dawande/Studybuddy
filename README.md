@@ -1,8 +1,5 @@
 # MAT
 
-<p align="center">
-  <img src="studybuddy/mascot.png" width="250">
-</p>
 
 An AI-powered tutoring chatbot that explains concepts in **Hinglish** (Hindi + English), **Tanglish** (Tamil + English), **Telegu**, **English** and **French** — the way students actually talk.
 

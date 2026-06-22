@@ -1,4 +1,4 @@
-# Studybuddy AI
+# MAT
 
 <p align="center">
   <img src="studybuddy/mascot.png" width="250">

@@ -188,28 +188,8 @@ User Input (text / voice / image / PDF)
 | `sync_current_session()` | app.py | Save current session to disk |
 | `load_sessions_data()` | app.py | Load all sessions with migration |
 
----
 
-## Development History
 
-| Stage | What was done |
-|-------|--------------|
-| v1 — Base | Streamlit + Groq chatbot with Class 10 Science only |
-| v2 — Memory | Persistent chat history using chat_history.json |
-| v3 — Subjects | Expanded to 6 subjects: Science, Social Science, Maths, English, Hindi, Tamil |
-| v4 — CSS | Light/dark mode with proper contrast, gradient theme |
-| v5 — Sessions | Multi-session chat with New Chat button, history panel, clear history |
-| v6 — Tools | Added Notes, Quiz, and Flashcards generation tools |
-| v7 — Classes | Expanded from Class 10 to Classes 8-12 with stream/group support for 11/12 |
-| v8 — Rebrand | Renamed to Studybuddy AI, added animated mascot, removed all emojis |
-| v9 — Prompts | Enhanced Hinglish & Tanglish prompts for authentic, natural language |
-
----
-
-- Sujitha C B (II, CSE, SSN College Of Engineering)
-\
-Built for SRM Hackathon
----
 
 ## License
 

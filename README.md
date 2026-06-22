@@ -42,15 +42,6 @@ Built with **Streamlit** + **Groq AI** (LLaMA 3.3 70B).
 - Persistent JSON storage across page reloads
 - Clear individual or all history
 
-### Voice Input
-- Floating mic button using Web Speech API (Chrome)
-- Real-time speech-to-text in en-IN locale
-- Visual recording indicator
-
-### File Upload & Vision
-- **Images** (PNG, JPG) — analyzed by LLaMA 4 Scout vision model
-- **PDFs** — text extracted and used as context for Q&A
-- Upload diagrams, textbook pages, or handwritten problems
 
 ### UI / UX
 - Animated mascot in header (CSS keyframe study-bob animation)
@@ -67,9 +58,6 @@ Built with **Streamlit** + **Groq AI** (LLaMA 3.3 70B).
 |-----------|-----------|
 | Frontend | Streamlit 1.40+ |
 | AI Model | Groq API — llama-3.3-70b-versatile |
-| Vision Model | meta-llama/llama-4-scout-17b-16e-instruct |
-| PDF Parsing | pypdf 4.0+ (optional) |
-| Voice | Web Speech API (browser-native) |
 | Storage | JSON file (chat_sessions.json) |
 | Language | Python 3.x |
 
@@ -151,7 +139,7 @@ Class selector (8-12)
 ### Architecture
 
 ```
-User Input (text / voice / image / PDF)
+User Input (text)
         |
         v
     app.py (Streamlit UI + session state)
